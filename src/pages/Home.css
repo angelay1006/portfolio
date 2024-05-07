@@ -4,21 +4,26 @@
     color: #B5F5FD;
     font-weight: bold;
     padding-bottom: 2vh;
+    text-shadow: 0 0 0.15em #2A2E3D;
 }
 
 .subtitle {
     font-family: 'Roboto Mono', monospace;
     color: #D8B0FA;
     font-weight: bold;
-    text-align: left; /* Ensures the text starts at the left of its container */
+    text-shadow: 0 0 0.15em #2A2E3D;
 }
 
 .home-container {
-    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    background-image: url('../assets/geometry.svg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 90vh;
 }
+
 
 
 

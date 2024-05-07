@@ -2,5 +2,16 @@
     background-color: #2A2E3D;
 }
 
+.App-header {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+
+}
+
+.App-body {
+    padding-top: 50px; 
+}
 
 
