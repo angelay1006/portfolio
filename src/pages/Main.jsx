@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Home.jsx';
+import Projects from './Projects.jsx';
+import Contact from './Contact.jsx';
+import { Element, scroller } from 'react-scroll';
+import { useLocation } from 'react-router-dom';
 
 const Main = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            let section = location.hash.replace('#', '');
+            scroller.scrollTo(
+                section,
+                {duration: 800, delay: 0, smooth: 'easeInOutQuart'}
+            );
+        }
+    }, [location]);
+
     return (
-        <div>
-            <div className={`h1 mt-10 text-center`}> 
-                <a> Hi. I'm Angela Yeung </a>
-            </div>
-            <div className="subtitle">
-                <a> I’m passionate about developing environmentally and socially responsible computing solutions. </a>
-            </div>
+        <div className="container mt-5">
+            <Home/>
+            <Projects/>
+            <Contact/>
         </div>
-        
     )
 }
-
 
 export default Main;
