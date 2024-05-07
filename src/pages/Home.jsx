@@ -26,16 +26,10 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="home-container d-flex justify-content-center align-items-center">
-            <div className="row w-100">
-                <div className="col-12 col-lg-10 offset-lg-1">
-                    <div className="text-center">
-                        <div className="title-container">
-                            <h1 className="display-2">Hi. I'm Angela Yeung</h1>
-                            <p className="subtitle">I’m passionate about developing environmentally and socially responsible computing solutions.</p>
-                        </div>
-                    </div>
+            <div className="title-container">
+                <h1 className="display-2">Hi. I'm Angela Yeung</h1>
+                    <p className="subtitle">I’m passionate about developing environmentally and socially responsible computing solutions.</p>
                 </div>
-            </div>
         </div>
     );
 }

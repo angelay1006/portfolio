@@ -1,39 +1,9 @@
-/* .display-2 {
-    font-family: 'Roboto Mono', monospace;
-    width: 100%;
-    color: #B5F5FD;
-    font-weight: bold;
-    padding-bottom: 2vh;
-    font-size: 4rem;
-}
-
-.subtitle {
-    font-family: 'Roboto Mono', monospace;
-    color: #D8B0FA;
-    font-weight: bold;
-}
-
-.home-container {
-    height: 65vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    text-align: center;
-} 
-
-
-.title-wrapper {
-    display: inline-block;
-    text-align: left; 
-    width: 100%;
-} */
 
 .display-2 {
     font-family: 'Roboto Mono', monospace;
     color: #B5F5FD;
     font-weight: bold;
     padding-bottom: 2vh;
-    font-size: 4rem;
 }
 
 .subtitle {
@@ -41,8 +11,6 @@
     color: #D8B0FA;
     font-weight: bold;
     text-align: left; /* Ensures the text starts at the left of its container */
-    width: 60%; /* Takes full width of its container */
-
 }
 
 .home-container {
@@ -50,14 +18,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
-}
-
-.title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Aligns children (title and subtitle) to the start of the flex container */
-    width: fit-content; /* Shrinks to fit the largest child */
-    margin: 0 auto; /* Centers the container */
 }
 
 
