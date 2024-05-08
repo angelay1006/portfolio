@@ -1,5 +1,6 @@
 .App {
     background-color: #2A2E3D;
+    
 }
 
 .App-header {
@@ -10,7 +11,15 @@
 
 }
 
+/* .App-body {
+    
+    background-image: url('./assets/wire1.svg'); 
+    background-position: center 5vh; 
+    background-repeat: no-repeat;
+} */
+
 .App-body {
+    background: url('./assets/wire1.svg') center no-repeat, url('./assets/wire2.svg') bottom center no-repeat;
     padding-top: 50px; 
 }
 

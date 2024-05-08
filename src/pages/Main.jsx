@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home.jsx';
-import Projects from './Projects.jsx';
-import Contact from './Contact.jsx';
+import Home from '../components/Home.jsx';
+import Projects from '../components/Projects.jsx';
+import Contact from '../components/Contact.jsx';
 import { Element, scroller } from 'react-scroll';
 import { useLocation } from 'react-router-dom';
 
@@ -14,16 +14,16 @@ const Main = () => {
             let section = location.hash.replace('#', '');
             scroller.scrollTo(
                 section,
-                {duration: 800, delay: 0, smooth: 'easeInOutQuart'}
+                {duration: 400, delay: 0}
             );
         }
     }, [location]);
 
     return (
         <div className="container mt-5">
-            <Home/>
-            <Projects/>
-            <Contact/>
+            <Element name="home"><Home/></Element>
+            <Element name="projects"><Projects/></Element>
+            <Element name="contact"><Contact/></Element>
         </div>
     )
 }

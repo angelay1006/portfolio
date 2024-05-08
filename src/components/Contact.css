@@ -1,0 +1,13 @@
+.display-4.text-center.mb-2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #B5F5FD;
+    font-weight: bold;
+}
+
+
+
+h6.text-center.mb-5 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #D8B0FA;
+}

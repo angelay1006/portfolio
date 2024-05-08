@@ -1,0 +1,25 @@
+.display-4.text-center.mb-4 {
+    font-family: 'Roboto Mono', monospace;
+    color: #B5F5FD;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.project-card {
+    background-color: gray;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h5.text-center.mt-5.mb-5 {
+    font-family: 'Roboto Mono', monospace;
+    color: #D8B0FA;
+    font-weight: bold;
+
+}
+
+.projects-container {
+    height: 100vh;
+}
