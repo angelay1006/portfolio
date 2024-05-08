@@ -4,30 +4,57 @@ import './Contact.css';
 import github from '../assets/github.svg';
 import mail from '../assets/mail.svg';
 import linkedin from '../assets/linkedin.svg';
+import profile from '../assets/profile.jpg';
 
 
 const Contact = () => {
     return (
         <div className="container-fluid">
-            <h2 className="display-4 text-center mb-4">contact</h2>
-            <h6 className="h6 text-center mb-5"> if you like my work, feel free to contact me!</h6>
-            <div className="row justify-content-center pb-5">
+            <h2 className="display-4 text-center mb-5">contact</h2>
+            
+            {/* row for card https://getbootstrap.com/docs/4.3/components/card/#horizontal */}
+            <div className="d-flex justify-content-center mb-5">
+            <div class="card mb-5">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src={profile} class="card-img" alt="profile of author"/>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"> About Me </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <h6 className="h6 text-center mt-5 mb-5"> if you like my work, feel free to contact me!</h6>
+
+            {/* row for contact icons */}
+            <div className="row justify-content-center">
                 <div className="col-auto d-flex align-items-center justify-content-center">
-                    <a href="https://github.com/angelay1006" className="contact-github">
+                    <a href="https://github.com/angelay1006" target="_blank" className="contact-github">
                         <img src={github} alt="GitHub logo" className="mr-2"/>
                     </a>
                 </div>
                 <div className="col-auto d-flex align-items-center justify-content-center">
-                    <a href="mailto:angela1006yeung@gmail.com" className="contact-email">
+                    <a href="mailto:angela1006yeung@gmail.com" target="_blank" className="contact-email">
                         <img src={mail} alt="Email logo" className="mr-2"/>
                     </a>
                 </div>
                 <div className="col-auto d-flex align-items-center justify-content-center">
-                    <a href="https://www.linkedin.com/in/angela-yeung-203134205/" className="contact-linkedin">
+                    <a href="https://www.linkedin.com/in/angela-yeung-203134205/" target="_blank" className="contact-linkedin">
                         <img src={linkedin} alt="LinkedIn logo" className="mr-2"/>
                     </a>
                 </div>
             </div>
+
+            <p className="text-center mt-5 credits">
+                Credits for portfolio images go to{' '}  
+                <a href="https://www.figma.com/@lilith_lenihan" target="_blank" rel="noopener noreferrer" style={{ color: '#BBD48E'}} >Lilith Lenihan</a> and{''}  <a href="https://www.figma.com/@mooodswings" target="_blank" rel="noopener noreferrer" style={{ color: '#BBD48E'}}>Chris Christodoulopoulos</a> {' under CC By 4.0'}
+            </p>
         </div>
     );
 }

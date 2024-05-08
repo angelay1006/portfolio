@@ -1,13 +1,30 @@
-.display-4.text-center.mb-2 {
+
+
+.display-4.text-center.mb-5 {
     font-family: 'Roboto Mono', monospace;
     color: #B5F5FD;
     font-weight: bold;
 }
 
 
-
-h6.text-center.mb-5 {
+h6.text-center.mt-5.mb-5 {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     color: #D8B0FA;
+}
+
+.card.mb-5 {
+    width: 80%;
+}
+
+.container-fluid {
+    height: 85vh;
+}
+
+/* credits for portfolio image */
+.text-center.mt-5.credits {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #D8B0FA;
+    font-size: 0.8em;
 }

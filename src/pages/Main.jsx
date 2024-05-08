@@ -14,7 +14,7 @@ const Main = () => {
             let section = location.hash.replace('#', '');
             scroller.scrollTo(
                 section,
-                {duration: 400, delay: 0}
+                {duration: 400, delay: 0, offset:-100}
             );
         }
     }, [location]);
