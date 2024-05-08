@@ -1,8 +1,13 @@
+/* title formatting */
 .display-4.text-center.mb-4 {
     font-family: 'Roboto Mono', monospace;
     color: #B5F5FD;
     font-weight: bold;
     padding-bottom: 2vh;
+}
+
+.projects-container {
+    min-height: 100vh;
 }
 
 .project-card {
@@ -13,13 +18,10 @@
     flex-direction: column;
 }
 
-.h5.text-center.mt-5.mb-5 {
+.h5.text-center {
     font-family: 'Roboto Mono', monospace;
     color: #D8B0FA;
     font-weight: bold;
 
 }
 
-.projects-container {
-    min-height: 100vh;
-}
