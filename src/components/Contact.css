@@ -1,4 +1,6 @@
-
+.card-text {
+    font-family: 'Inter';
+}
 
 .display-4.text-center.mb-5 {
     font-family: 'Roboto Mono', monospace;

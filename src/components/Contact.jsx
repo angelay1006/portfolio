@@ -22,8 +22,8 @@ const Contact = () => {
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title"> About Me </h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Hello! Based in Providence, Rhode Island, I am soon to graduate from Brown University with a Bachelor of Science, where I concentrated on artificial intelligence and security. I am excited to further my expertise in these fields by pursuing a master's program at Brown. </p>
+                            <p class="card-text">Outside of software and academics, I love reading contemporary fiction and fantasy literature, gaming, and playing classical music. </p>
                         </div>
                     </div>
                 </div>
