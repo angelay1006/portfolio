@@ -1,0 +1,51 @@
+.cs-container {
+    padding-top: 4rem; /* Adds padding at the top inside the container */
+    padding-left: 5rem;
+    /* background: url('../assets/wire3.svg') top right no-repeat !important; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 2rem;
+
+}
+
+/* case study title */
+.display-4.mt-5.mb-4 {
+    font-family: 'Roboto Mono', monospace;
+    color: #B5F5FD;
+    font-weight: bold;
+}
+
+/* github link button */
+.btn.btn-secondary {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(201, 205, 218, 0.2);
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    justify-content: center;
+    display: flex;
+    backdrop-filter: blur(10px);
+    color: #D8B0FA;
+}
+
+/* section heading */
+.display-6 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+}
+
+/* section content */
+.overview-content {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(130, 132, 139, 0.107);
+    backdrop-filter: blur(4px);  
+    padding: 1.5vh 2vh;
+    border-radius: 20px;
+}
+
+  

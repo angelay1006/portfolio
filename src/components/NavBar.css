@@ -6,7 +6,7 @@
     width: 75%;
     border-radius: 50px;  
     background-color: rgba(201, 205, 218, 0.2); /* this doesn't affect child */
-    backdrop-filter: blur(10px);  
+    backdrop-filter: blur(20px);  
     margin: 0 auto;  
     position: relative;
     z-index: 0;

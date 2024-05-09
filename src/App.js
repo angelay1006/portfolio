@@ -1,15 +1,24 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { useEffect } from 'react';
 import NavBar from './components/NavBar.jsx';
 import Main from './pages/Main.jsx';
 import CS1 from './pages/CS1.jsx';
 import CS2 from './pages/CS2.jsx';
 import CS3 from './pages/CS3.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 
 function App() {
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <header className="App-header">
           <NavBar/>
