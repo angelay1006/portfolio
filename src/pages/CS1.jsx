@@ -165,11 +165,10 @@ const CS1 = () => {
 
       {/* conclusion content */}
       <div className="row mt-2 col-md-7">
-        <div className="section-content"> 
-          <p>The Responsive Redesign of Metro Nails Salon's website has modernized its appearance, as well as enhanced its accessibility, leading to a better user experience that works across all devices. </p>
+        <div className="row mt-2"> 
+          <p className="section-content">The Responsive Redesign of Metro Nails Salon's website has modernized its appearance, as well as enhanced its accessibility, leading to a better user experience that works across all devices.</p>
         </div>
       </div>
-
     </div>
   );
 }

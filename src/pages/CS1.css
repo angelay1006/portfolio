@@ -43,7 +43,7 @@
     color: white;
     background-color: rgba(130, 132, 139, 0.107);
     backdrop-filter: blur(4px);  
-    padding: 1.5vh 2vh;
+    padding: 1.5vh 1.5vh 2vh 2vh;
     border-radius: 20px;
     font-weight: bold;
 }
@@ -58,7 +58,6 @@
     padding: 2vh 2vh 3vh 4vh;
     border-radius: 20px;
     font-weight: bold;
-
 }
 
 /* 3-column section */

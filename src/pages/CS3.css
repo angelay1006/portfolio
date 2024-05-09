@@ -38,14 +38,47 @@
 }
 
 /* section content */
-.overview-content {
-    font-family: 'Roboto Mono', monospace;
+.section-content {
+    /* font-family: 'Roboto Mono', monospace; */
     color: white;
-    font-weight: bold;
     background-color: rgba(130, 132, 139, 0.107);
     backdrop-filter: blur(4px);  
-    padding: 1.5vh 2vh;
+    padding: 1.5vh 1.5vh 2vh 2vh;
     border-radius: 20px;
+    font-weight: bold;
+}
+
+/* bullet point section */
+.bulletpoint-content {
+    /* font-family: 'Roboto Mono', monospace; */
+    color: white;
+    background-color: rgba(130, 132, 139, 0.107);
+    backdrop-filter: blur(4px);  
+    /* top | right | bottom | left */
+    padding: 2vh 2vh 3vh 4vh;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* 3-column section */
+.three-col-content {
+    color: white;
+    background-color: rgba(130, 132, 139, 0.107);
+    backdrop-filter: blur(4px);  
+    /* top | right | bottom | left */
+    padding: 2vh 2vh 1vh 4vh;
+    margin-bottom: 1vh;
+    margin-right: 1vh; 
+    margin-left: 1vh; 
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* image styling */
+.img-fluid {
+    border-radius: 20px;
+    max-width: 100%;
 }
 
   
