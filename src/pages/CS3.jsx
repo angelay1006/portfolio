@@ -26,7 +26,7 @@ const CS3 = () => {
       {/* Overview content */}
       <div className="row mt-2">
         <div className="col-md-7">
-          <p className="section-content">Welcome to my Iterative Design project for Brown University's UI/UX course. In this collaborative project, our team designed an onboarding process for Driver AI, a startup that uses large language models (LLMs) to transform the creation of technical documentation. As part of a collaborative team (consisting of myself, Carlos Betancur, Adam von Bismarck, and Matthew Boranian), my role involved direct communication with the startup's founder, engaging in ideation and design phases, and ensuring our designs seamlessly integrated with the existing Driver AI aesthetic.</p>
+          <p className="section-content">In my final project for the DATA1030 course at Brown University, I focused on a critical environmental issue: forecasting CO2 emissions from global flights. This project involved the full machine learning pipeline — from cleaning data to training and evaluating models. My goal was to create a tool that predicts flight emissions based on key characteristics like flight duration and ticket price, which could influence global strategies for reducing aviation's carbon footprint.</p>
         </div>
       </div>
 
