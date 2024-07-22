@@ -23,7 +23,7 @@ const Contact = () => {
                         <div class="card-body">
                             <h5 class="card-title"> About Me </h5>
                             <p class="card-text">Hello! Based in Providence, Rhode Island, I am soon to graduate from Brown University with a Bachelor of Science degree, where I concentrated in Artificial Intelligence and Security. I am excited to further my expertise in these fields by pursuing a master's degree at Brown. </p>
-                            <p class="card-text">Outside of software, I love reading contemporary fiction and fantasy literature, gaming, and playing classical music. </p>
+                            <p class="card-text">Outside of software, I love reading literary fiction, gaming, cooking, and playing classical music. </p>
                         </div>
                     </div>
                 </div>
