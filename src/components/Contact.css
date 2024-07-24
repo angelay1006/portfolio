@@ -1,32 +1,62 @@
-.card-text {
-    font-family: 'Inter';
-}
-
+/* section header: "contact" */
 .display-4.text-center.mb-5 {
     font-family: 'Roboto Mono', monospace;
     color: #B5F5FD;
     font-weight: bold;
 }
 
-
-h6.text-center.mt-5.mb-5 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    color: #D8B0FA;
-}
-
-.card.mb-5 {
-    width: 80%;
-}
-
 .container-fluid {
     height: 85vh;
+    overflow: hidden;
+    padding: 0;
 }
 
-/* credits for portfolio image */
-.text-center.mt-5.credits {
+/* credits for portfolio images */
+.text-center.credits {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     color: #D8B0FA;
     font-size: 0.8em;
+    padding: 1rem;
 }
+
+.credits-container {
+    margin-top: 10%; 
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* card with profile picture */
+.card-img .profile-pic{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    font-family: 'Inter';
+}
+
+.card.mb-5.mt-2 {
+    width: 80%;
+}
+
+/* media queries for smaller screens */
+@media (max-width: 768px) {
+    .display-4.text-center.mb-5 {
+        font-family: 'Roboto Mono', monospace;
+        color: #B5F5FD;
+        font-weight: bold;
+        margin-top: 15vh;
+    }
+    .credits-container {
+        margin-top: 5%; 
+    }
+    .container-fluid {
+        height: 85vh;
+        padding: 0;
+        overflow: visible;
+    }
+}
+
