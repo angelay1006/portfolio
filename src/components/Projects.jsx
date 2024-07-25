@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div className="projects-container mt-3">
             <h2 className="display-4 text-center mb-4"> projects </h2>
-
+        
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
                 <div class="col">
                     <div class="card">

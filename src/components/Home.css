@@ -8,12 +8,7 @@
     text-shadow: 0 0 0.15em #2A2E3D;
 }
 
-.subtitle {
-    font-family: 'Roboto Mono', monospace;
-    color: #D8B0FA;
-    font-weight: bold;
-    text-shadow: 0 0 0.15em #2A2E3D;
-}
+
 
 .home-container {
     display: flex;
@@ -24,6 +19,22 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+/* subtitle */
+
+.subtitle {
+    font-family: 'Roboto Mono', monospace;
+    color: #D8B0FA;
+    font-weight: bold;
+    text-shadow: 0 0 0.15em #2A2E3D;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
 
 
 

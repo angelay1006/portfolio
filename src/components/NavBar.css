@@ -15,12 +15,29 @@
 }
 
 
-.nav-link {  
+.nav-link {
     color: #BBD48E !important;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold !important;
     text-decoration: none;
     position: relative;
     z-index: 1;
+    display: inline-block; 
+    cursor: pointer;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px; 
+    left: 0;
+    background-color: #BBD48E; 
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%; 
 }
 

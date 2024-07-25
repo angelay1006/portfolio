@@ -5,6 +5,7 @@ import github from '../assets/github.svg';
 import mail from '../assets/mail.svg';
 import linkedin from '../assets/linkedin.svg';
 import profile from '../assets/profile.jpg';
+import 'animate.css';
 
 
 const Contact = () => {
