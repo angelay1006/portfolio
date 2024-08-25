@@ -29,12 +29,12 @@ const Projects = () => {
 
                 <div class="col">
                     <div class="card">
-                        <img src={ID_cover} class="card-img-top"
+                        <img src={CS_cover} class="card-img-top"
                             alt="demo of support chatbot" />
                         <div class="card-body">
                             <h5 class="card-title"> support chatbot </h5>
-                            <p class="card-text"> creating a tailored onboarding process for Driver AI's platform, emphasizing user-centric design and iterative refinement </p>
-                            <Link to="/CS2" className="btn btn-primary view-more">View More</Link>
+                            <p class="card-text"> a customer support chatbot using Next.js, Node.js, and OpenAI API, hosted on an AWS EC2 instance with HTTPS secured by Caddy. </p>
+                            <Link to="https://chat-support.angelayeung.xyz/" className="btn btn-primary view-more">View More</Link>
                         </div>
                     </div>
                 </div>
