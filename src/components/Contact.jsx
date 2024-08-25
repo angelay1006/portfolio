@@ -11,7 +11,7 @@ import 'animate.css';
 const Contact = () => {
     return (
         <div className="container-fluid flex-column justify-content-between">
-            <h2 className="display-4 text-center mb-5 custom-margin">contact</h2>
+            <h2 className="display-4 text-center mb-5 mt-5 custom-margin">contact</h2>
             
             {/* row for card https://getbootstrap.com/docs/4.3/components/card/#horizontal */}
             <div className="d-flex justify-content-center mb-5">
