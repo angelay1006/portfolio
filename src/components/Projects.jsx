@@ -5,13 +5,56 @@ import './Projects.css';
 import DATA_cover from '../assets/DATA_cover.png';
 import RR_cover from '../assets/RR_cover.png';
 import ID_cover from '../assets/ID_cover.svg'
+import IM_cover from '../assets/IM_cover.png';
+import CS_cover from '../assets/CS_cover.png';
+import Flashcards_Cover from '../assets/Flashcards_Cover.png';
 
 const Projects = () => {
     return (
         <div className="projects-container mt-3">
             <h2 className="display-4 text-center mb-4"> projects </h2>
-        
+
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card">
+                        <img src={Flashcards_Cover} class="card-img-top"
+                            alt="cover of flashcard saas" />
+                        <div class="card-body">
+                            <h5 class="card-title">AI-generated flashcards</h5>
+                            <p class="card-text">a dynamic SaaS platform for creating and managing AI-generated flashcards, using Next.js, Firebase, OpenAI, Clerk and Stripe. </p>
+                            <Link to="https://qwizzcards.vercel.app/" className="btn btn-primary view-more">View More</Link>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src={IM_cover} class="card-img-top"
+                            alt="cover of inventory management website" />
+                        <div class="card-body">
+                            <h5 class="card-title"> inventory management </h5>
+                            <p class="card-text">
+                                streamlining inventory management with real-time updates and scalable, user-friendly interfaces using Next.js, Material-UI, and Firebase Firestore
+                            </p>
+                            <Link to="https://inventory-management-angela-yeung.vercel.app/auth-landing" className="btn btn-primary view-more">View More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src={CS_cover} class="card-img-top"
+                            alt="demo of support chatbot" />
+                        <div class="card-body">
+                            <h5 class="card-title"> support chatbot </h5>
+                            <p class="card-text"> a customer support chatbot using Next.js, Node.js, and OpenAI API, hosted on an AWS EC2 instance with HTTPS secured by Caddy. </p>
+                            <Link to="https://chat-support.angelayeung.xyz/" className="btn btn-primary view-more">View More</Link>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 mb-5">
                 <div class="col">
                     <div class="card">
                         <img src={RR_cover} class="card-img-top"
@@ -19,7 +62,7 @@ const Projects = () => {
                         <div class="card-body">
                             <h5 class="card-title"> responsive redesign </h5>
                             <p class="card-text">
-                                transforming the website of a local business into a responsive online presence with 
+                                transforming the website of a local business into a responsive online presence with
                                 a modern brand aesthetic
                             </p>
                             <Link to="/CS1" className="btn btn-primary view-more">View More</Link>
