@@ -47,7 +47,8 @@ const Projects = () => {
                         <div class="card-body">
                             <h5 class="card-title"> support chatbot </h5>
                             <p class="card-text"> a customer support chatbot using Next.js, Node.js, and OpenAI API, hosted on an AWS EC2 instance with HTTPS secured by Caddy. </p>
-                            <Link to="https://chat-support.angelayeung.xyz/" className="btn btn-primary view-more">View More</Link>
+                            {/* <Link to="https://chat-support.angelayeung.xyz/" className="btn btn-primary view-more">View More</Link> */}
+                            <button className="btn btn-primary view-more" disabled>Under Maintenance</button>
                         </div>
                     </div>
                 </div>
